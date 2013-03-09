@@ -1,0 +1,24 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+<ui:style field="style" src="Common.css" />
+		
+	<ui:style field="local">
+	.bigButton { 	
+	    font-size: x-large;
+	    margin-right: 6px;
+	
+	
+	}
+ 		
+	</ui:style>
+	<g:FlowPanel width="100%" height="100%">
+		<g:Button ui:field="runAllSubmitButton" text="Run Tests And Submit..." addStyleNames="{local.bigButton}"></g:Button>
+	    <g:Button ui:field="runAllButton" text="Run Tests Only..." addStyleNames="{local.bigButton}"></g:Button>
+	    <g:Button ui:field="clearButton" text="Clear Results" addStyleNames="{local.bigButton}"></g:Button>
+        <g:ScrollPanel addStyleNames="{style.topLayout}"  width="98%" height="90%"  ui:field="scrollPanel" >
+		<g:FlexTable ui:field="documents" addStyleNames="{style.Record}" />
+		</g:ScrollPanel>
+
+	</g:FlowPanel>
+</ui:UiBinder> 

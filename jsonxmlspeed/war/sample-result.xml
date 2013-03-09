@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<speedtest time="2013-03-09T16:55:46.029Z">
+  <server>
+    <env name="HTTP_ACCEPT">*/*</env>
+    <env name="HTTP_ACCEPT_CHARSET">ISO-8859-1,utf-8;q=0.7,*;q=0.3</env>
+    <env name="HTTP_ACCEPT_ENCODING">gzip,deflate,sdch</env>
+    <env name="HTTP_ACCEPT_LANGUAGE">en-US,en;q=0.8</env>
+    <env name="HTTP_CONNECTION">keep-alive</env>
+    <env name="HTTP_HOST">speedtest.xmlsh.org</env>
+    <env name="HTTP_ORIGIN">http://speedtest.xmlsh.org</env>
+    <env name="HTTP_REFERER">http://speedtest.xmlsh.org/?debug</env>
+    <env name="HTTP_USER_AGENT">Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22</env>
+    <env name="REMOTE_ADDR">74.133.90.148</env>
+    <env name="REMOTE_PORT">61931</env>
+    <env name="SERVER_ADDR">10.112.61.10</env>
+    <env name="SERVER_ADMIN">dlee</env>
+    <env name="SERVER_NAME">speedtest.xmlsh.org</env>
+    <env name="SERVER_PORT">80</env>
+    <env name="SERVER_PROTOCOL">HTTP/1.1</env>
+    <env name="SERVER_SIGNATURE">&lt;address&gt;Apache/2.2.23 (Amazon) Server at speedtest.xmlsh.org Port 80&lt;/address&gt;</env>
+    <env name="SERVER_SOFTWARE">Apache/2.2.23 (Amazon)</env>
+  </server>
+  <client>
+    <results result-time="2013-03-09T11:55:28-0500" client-version="0.5" file-version="2013-03-09T11:20:02.917-05:00">
+      <browser app-code-name="Mozilla" app-name="Netscape" app-version="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22" platform="Win32" user-agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.152 Safari/537.22"/>
+      <tests>
+	<result uri="data/base/base-custom.json" group="base" type="json" size="56" md5="d9347e47c6585eafb1d5be6f9be008f3" network_raw="75" network_compressed="108" size_raw="56" size_compressed="68" js_parse="0" js_query="0" jquery_parse="0" jquery_query="0" js_nodes="8" jquery_nodes="8"/>
+	<result uri="data/base/base-full.json" group="base" type="json" size="93" md5="259fa4d95a5263e591ffcfc89a7a95bc" network_raw="94" network_compressed="91" size_raw="93" size_compressed="93" js_parse="0" js_query="0" jquery_parse="0" jquery_query="0" js_nodes="16" jquery_nodes="16"/>
+	<result uri="data/base/base.xml" group="base" type="xml" size="45" md5="ba521133b42416e049ec7f8a984277b9" network_raw="93" network_compressed="89" size_raw="45" size_compressed="60" js_parse="0" js_query="1" jquery_parse="0" jquery_query="1" js_nodes="6" jquery_nodes="7"/>
+	<result uri="data/books/books1-custom.json" group="books" type="json" size="204832" md5="08c1e2acd768bb161086fae5c6194eb0" network_raw="638" network_compressed="110" size_raw="204832" size_compressed="1919" js_parse="24" js_query="10" jquery_parse="9" jquery_query="8" js_nodes="14505" jquery_nodes="14505"/>
+	<result uri="data/books/books1-full.json" group="books" type="json" size="438133" md5="d855d3a929e00908bcf73214776f7714" network_raw="1458" network_compressed="119" size_raw="438133" size_compressed="3749" js_parse="65" js_query="14" jquery_parse="16" jquery_query="55" js_nodes="68305" jquery_nodes="68305"/>
+	<result uri="data/books/books1.xml" group="books" type="xml" size="256030" md5="7e84e25b9960879132d874141ea82542" network_raw="682" network_compressed="114" size_raw="256030" size_compressed="2411" js_parse="24" js_query="49" jquery_parse="25" jquery_query="174" js_nodes="25502" jquery_nodes="18103"/>
+	<result uri="data/books/books2.xml" group="books" type="xml" size="226430" md5="87e300aae6774ce18a10b7cee8788355" network_raw="651" network_compressed="111" size_raw="226430" size_compressed="2163" js_parse="19" js_query="38" jquery_parse="19" jquery_query="199" js_nodes="16902" jquery_nodes="18103"/>
+	<result uri="data/books/books3.xml" group="books" type="xml" size="186230" md5="ac1295f5e2900c02e12a01e57715aa5f" network_raw="663" network_compressed="145" size_raw="186230" size_compressed="1809" js_parse="20" js_query="19" jquery_parse="20" jquery_query="87" js_nodes="11502" jquery_nodes="12703"/>
+	<result uri="data/epa/epa1-custom.json" group="epa" type="json" size="140914" md5="b80b55054fd7c5d14d63099808278cf2" network_raw="477" network_compressed="103" size_raw="140914" size_compressed="13096" js_parse="5" js_query="1" jquery_parse="3" jquery_query="2" js_nodes="3121" jquery_nodes="3121"/>
+	<result uri="data/epa/epa1-full.json" group="epa" type="json" size="199025" md5="e7d1dc13af32bef540dcb8daa06414f5" network_raw="696" network_compressed="151" size_raw="199025" size_compressed="14906" js_parse="14" js_query="4" jquery_parse="4" jquery_query="8" js_nodes="19745" jquery_nodes="19745"/>
+	<result uri="data/epa/epa1.xml" group="epa" type="xml" size="195201" md5="c8d5ae11c1e9fd6266f9ebe18fd230d9" network_raw="589" network_compressed="220" size_raw="195201" size_compressed="14636" js_parse="9" js_query="16" jquery_parse="9" jquery_query="52" js_nodes="7430" jquery_nodes="5091"/>
+	<result uri="data/epa/epa2.xml" group="epa" type="xml" size="192449" md5="e761fb44c5532d8d3f8e7e4620ac1a99" network_raw="595" network_compressed="150" size_raw="192449" size_compressed="14584" js_parse="6" js_query="11" jquery_parse="6" jquery_query="53" js_nodes="4678" jquery_nodes="5091"/>
+	<result uri="data/epa/epa3.xml" group="epa" type="xml" size="136813" md5="219e05bca8349b72fe364898b6508ff6" network_raw="466" network_compressed="105" size_raw="136813" size_compressed="12803" js_parse="5" js_query="2" jquery_parse="4" jquery_query="13" js_nodes="2546" jquery_nodes="2955"/>
+	<result uri="data/ndc/ndc1-custom.json" group="ndc" type="json" size="95093" md5="ee984c6bdcd68e844e6cdba6536b6895" network_raw="340" network_compressed="97" size_raw="95093" size_compressed="8548" js_parse="5" js_query="1" jquery_parse="2" jquery_query="2" js_nodes="6005" jquery_nodes="6005"/>
+	<result uri="data/ndc/ndc1-full.json" group="ndc" type="json" size="235603" md5="29665eb89be254feada8902d970413a4" network_raw="733" network_compressed="106" size_raw="235603" size_compressed="9680" js_parse="23" js_query="8" jquery_parse="9" jquery_query="119" js_nodes="38726" jquery_nodes="38726"/>
+	<result uri="data/ndc/ndc1.xml" group="ndc" type="xml" size="176157" md5="d309b449e74fb0f1e516fc4fc2cf2533" network_raw="538" network_compressed="107" size_raw="176157" size_compressed="9225" js_parse="13" js_query="31" jquery_parse="14" jquery_query="85" js_nodes="13909" jquery_nodes="10003"/>
+	<result uri="data/ndc/ndc2.xml" group="ndc" type="xml" size="153157" md5="6273123e95a9b6f7f6316ff82b73d818" network_raw="527" network_compressed="106" size_raw="153157" size_compressed="9031" js_parse="9" js_query="23" jquery_parse="12" jquery_query="102" js_nodes="8909" jquery_nodes="10003"/>
+	<result uri="data/ndc/ndc3.xml" group="ndc" type="xml" size="96087" md5="a5f3598e38c9fab38a35e10520caab23" network_raw="331" network_compressed="108" size_raw="96087" size_compressed="8340" js_parse="7" js_query="4" jquery_parse="5" jquery_query="22" js_nodes="5002" jquery_nodes="6003"/>
+	<result uri="data/snomed/ndc1-custom.json" group="snomed" type="json" size="99204" md5="86e36061b3e2c30bbd443a6ca12bf9fa" network_raw="353" network_compressed="101" size_raw="99204" size_compressed="11465" js_parse="4" js_query="1" jquery_parse="2" jquery_query="1" js_nodes="4879" jquery_nodes="4879"/>
+	<result uri="data/snomed/ndc1-full.json" group="snomed" type="json" size="501577" md5="254604a9c9d86887f5b7539ded8645a0" network_raw="1344" network_compressed="200" size_raw="501577" size_compressed="25848" js_parse="38" js_query="15" jquery_parse="17" jquery_query="116" js_nodes="77057" jquery_nodes="77057"/>
+	<result uri="data/snomed/snomed1.xml" group="snomed" type="xml" size="405294" md5="daafed0758c9355ded9b1d4167704259" network_raw="1131" network_compressed="173" size_raw="405294" size_compressed="24581" js_parse="28" js_query="59" jquery_parse="28" jquery_query="183" js_nodes="28834" jquery_nodes="19291"/>
+	<result uri="data/snomed/snomed2.xml" group="snomed" type="xml" size="355195" md5="419eb49beb4f1a8ab3d9586c0844511b" network_raw="985" network_compressed="190" size_raw="355195" size_compressed="23957" js_parse="19" js_query="44" jquery_parse="21" jquery_query="178" js_nodes="17897" jquery_nodes="19291"/>
+	<result uri="data/snomed/snomed3.xml" group="snomed" type="xml" size="221409" md5="d1ad187390a471d486d819bbb7519f83" network_raw="653" network_compressed="164" size_raw="221409" size_compressed="22349" js_parse="14" js_query="6" jquery_parse="11" jquery_query="33" js_nodes="9646" jquery_nodes="11040"/>
+	<result uri="data/spl/spl1-custom.json" group="spl" type="json" size="55762" md5="c6c8bb25018b9082bb60e666e5054f16" network_raw="236" network_compressed="100" size_raw="55762" size_compressed="10911" js_parse="3" js_query="0" jquery_parse="1" jquery_query="2" js_nodes="2654" jquery_nodes="2654"/>
+	<result uri="data/spl/spl1-full.json" group="spl" type="json" size="135948" md5="cc394312d411d9ca60f7080146b4ff5c" network_raw="481" network_compressed="104" size_raw="135948" size_compressed="12536" js_parse="7" js_query="3" jquery_parse="4" jquery_query="4" js_nodes="13480" jquery_nodes="13480"/>
+	<result uri="data/spl/spl1.xml" group="spl" type="xml" size="99571" md5="289a91e7fa0a7bd0882d356d1ddaec19" network_raw="344" network_compressed="127" size_raw="99571" size_compressed="12074" js_parse="7" js_query="7" jquery_parse="7" jquery_query="47" js_nodes="5516" jquery_nodes="4865"/>
+	<result uri="data/spl/spl2.xml" group="spl" type="xml" size="97965" md5="c1c70d0e3da16fa8fa7b9aa2d3f2189d" network_raw="347" network_compressed="101" size_raw="97965" size_compressed="12047" js_parse="5" js_query="6" jquery_parse="4" jquery_query="32" js_nodes="3910" jquery_nodes="4865"/>
+	<result uri="data/spl/spl3.xml" group="spl" type="xml" size="87755" md5="885fc34a31623f10cc6d4f65989a63b3" network_raw="342" network_compressed="101" size_raw="87755" size_compressed="11368" js_parse="4" js_query="4" jquery_parse="5" jquery_query="29" js_nodes="3765" jquery_nodes="4722"/>
+	<result uri="data/twitter/twitter1-custom.json" group="twitter" type="json" size="715005" md5="4a9b1bc826767e78b0179ab6620a4db8" network_raw="2808" network_compressed="838" size_raw="715005" size_compressed="0" js_parse="147" js_query="8" jquery_parse="13" jquery_query="13" js_nodes="29596" jquery_nodes="29596"/>
+	<result uri="data/twitter/twitter1-full.json" group="twitter" type="json" size="1056212" md5="409afd5207e9f3802e01d0ee3c2580be" network_raw="2139" network_compressed="701" size_raw="1056212" size_compressed="0" js_parse="88" js_query="25" jquery_parse="89" jquery_query="75" js_nodes="96125" jquery_nodes="96125"/>
+	<result uri="data/twitter/twitter1.xml" group="twitter" type="xml" size="809469" md5="5f9771601c4a1db684e6a35b72d62768" network_raw="1871" network_compressed="740" size_raw="809469" size_compressed="0" js_parse="56" js_query="68" jquery_parse="54" jquery_query="233" js_nodes="41284" jquery_nodes="34696"/>
+	<result uri="data/twitter/twitter2.xml" group="twitter" type="xml" size="718016" md5="f9e51cbdec176c269b9d671b8608478f" network_raw="1511" network_compressed="688" size_raw="718016" size_compressed="0" js_parse="54" js_query="43" jquery_parse="43" jquery_query="237" js_nodes="27504" jquery_nodes="34696"/>
+	<result uri="data/twitter/twitter3.xml" group="twitter" type="xml" size="700412" md5="6eacb3a36d1bca8149cd85a13cd845a4" network_raw="1296" network_compressed="674" size_raw="700412" size_compressed="0" js_parse="34" js_query="20" jquery_parse="33" jquery_query="209" js_nodes="23871" jquery_nodes="28519"/>
+      </tests>
+    </results>
+  </client>
+</speedtest>

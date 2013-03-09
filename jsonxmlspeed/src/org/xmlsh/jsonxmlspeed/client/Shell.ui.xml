@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style field="style" src="Common.css" />
+		
+	<ui:style field="local">
+		
+	</ui:style>
+	
+	
+	<g:DockLayoutPanel addStyleNames="{style.topLayout}" unit="PX" >
+          <g:north size="95">
+
+
+				<g:HTMLPanel>
+					<table width="90%">
+
+						<tr>
+							<td><img src="images/xmlsh.jpg" height="75"/></td>
+							<td><h1>XML - JSON Speed Test</h1></td>
+							<td><a href="readme.html" target="_new">ReadMe</a></td>
+							
+						</tr>
+					</table>
+					<hr/>
+				</g:HTMLPanel>
+			
+		</g:north>
+				<g:center  >
+			
+			<g:SimplePanel ui:field="centerPanel" height="100%" width="100%"  />
+
+		</g:center>
+	</g:DockLayoutPanel>
+</ui:UiBinder> 

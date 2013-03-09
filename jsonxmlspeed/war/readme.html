@@ -1,0 +1,47 @@
+<html>
+<body>
+<h1>What is jsonxmlspeed ?</h1>
+<p>jsonxmlspeed is an experiment to measure real world performance of XML and JSON in browsers.</p>
+<p>For each "group" (e.g. "books" , "spl" etc.) the same source abstract data is used and represented in various JSON and XML formats.<p>
+<p>Tests are run on each document to test size, download speed (raw and HTTP gzip compressed), parsing (pure JavaScript and JQuery), and query (JavaScript and JQuery).</p>
+<p>After tests are run the results can be submitted and are collected and aggregated for analysis and future publication.</p>
+<h2>How To Run</h2>
+<p>Simply click the "Run Tests and Submit...".   This will load all documents, run a test on each and at the end submit the results in one click.
+Suggested for small form factor devices like smartphones where the test dialog may go offscreen</p>
+<p>Click "Run Tests Only..".   This runs the tests and optionally gives you the opportunity to submit the results.</p>
+<p>Clear Results - This clears all results from the screen and memory</p>
+
+<p></p>
+<p>Run as often as you like, on as many operating systems, machines, browsers and devices as you like.  The more the better.  Multiple runs will not skew the results, but rather will improve the overall statistics.</p>
+<h2>What do the results mean?</h2>
+The results include the following information.  Some information is only shown in Debug mode (add ?debug to the URL).
+<ul>
+<li>Type - JSON or XML document</li>
+<li>Group - Which dataset is represented.  All documents (JSON and XML) in the same group represent the same data</li>
+<li>Name - Filename of the test file.  Click it to see what it is</li>
+<li>Size Raw - Raw size in bytes of the file</li>
+<li>Size gzip - Gzip size of the bytes.  Where possible this is collected dynamically in the browser as HTTP compresses the file. Otherwise its an estimate using the gzip tool.</li>
+<li>Network Raw (ms) - Time in ms to transfer the file from the server to the browser in uncompressed mode</li>
+<li>Network gzip (ms) - Time in ms to transfer the file from the server to the browser using HTTP gzip compression, including decompression time</li>
+<li>JS Parse (ms) - Time to parse the document using native JavaScript best practice typical code.</li>
+<li>JS Query (ms) - Time to walk the document and view every node and value using pure Javascript typical code</li>
+<li>JS Nodes - Number of nodes examined using pure Javascript in JS Query</li>
+<li>JQ Parse (ms) - Time to parse the document using native jQuery best practice typical code.</li>
+<li>JQ Query (ms) - Time to walk the document and view every node and value using jQuery typical code</li>
+<li>JQ Nodes - Number of nodes examined using jQuery in JQ Query</li>
+<li>Test - Run a single test without submitting the results</li>
+
+</ul>
+<h2>Source</h2>
+<p>Full source will be published shortly.  Come back soon and check</p>
+<h2>Privacy</h2>
+<p>Submitting results sends only data which is commonly available to JavaScript clients and web servers.  No cookies are used.  On publication result data will be anonymized and available for independant analysis.
+If you are not comfortable with this then don't submit the tests and don't use the web.
+</p>
+<p>Here is an example of a single result that is sent to the server: <a href="sample-result.xml">result-sample.xml</a></p>
+<p>Formats will likely change as the tests improve but will contain no more identifying data then this.</p>
+<h2>Contact</h2>
+<p>You can contact me for suggestions or questions at <a href="mailto:dlee@calldei.com">dlee@calldei.com</a> or twitter @DALDEI</p>
+</body>
+
+</html>

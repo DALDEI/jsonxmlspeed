@@ -1,0 +1,86 @@
+@CHARSET "UTF-8";
+
+.Record {
+	border: 2px solid #3d84cc;
+	width: 100%;
+	vertical-align: top;
+	border-collapse: collapse;
+}
+
+.Record td,.Record th {
+	border: 1px solid #3d84cc;
+	padding: 2px 5px;
+}
+
+.Errors {
+	color: red;
+	font-size: larger;
+	font-weight: bold;
+}
+
+@external text-align-right-style-class;
+.text-align-right-style-class {
+	text-align: Right
+}
+
+.headerLabelStyle {
+	color: blue;
+	font-size: larger;
+	font-weight: bold;
+}
+
+@external FlexTable-ColumnLabel;
+.FlexTable-ColumnLabel {
+  color: white;
+  padding: 3px;
+}
+@external FlexTable-ColumnLabelCell;
+
+.FlexTable-ColumnLabelCell {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: grey;
+  }
+
+.cellTable {
+	border-bottom: 1px solid #ccc;
+	text-align: left;
+	margin-bottom: 4px;
+}
+
+H2 {
+	text-align: Center;
+	margin: 0px
+}
+
+H1 {
+	text-align: Center;
+	margin: 0px
+}
+
+
+.topLayout {
+	margin: 4px;
+}
+
+.label {
+	text-align: Right;
+	padding-right: 8px
+}
+
+@external gwt-PushButton;
+.gwt-PushButton {
+	text-align: Center;
+}
+
+.grid {
+	margin: 0px;
+	padding: 0px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: gray;
+}
