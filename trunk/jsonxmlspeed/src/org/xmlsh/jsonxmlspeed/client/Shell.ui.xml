@@ -18,7 +18,7 @@
 						<tr>
 							<td><img src="images/xmlsh.jpg" height="75"/></td>
 							<td><h1>XML - JSON Speed Test</h1></td>
-							<td><a href="readme.html" target="_new">ReadMe</a></td>
+							<td><a href="readme.html" target="_new" style="font-size:larger">ReadMe</a></td>
 							
 						</tr>
 					</table>
